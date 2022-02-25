@@ -1,0 +1,14 @@
+// 水平、垂直居中，自动换行
+.flex-center {
+  @extend .d-flex;
+  @extend .flex-wrap;
+  @extend .justify-center;
+  @extend .align-center;
+}
+
+// 垂直居中，自动换行
+.flex-inline {
+  @extend .d-flex;
+  @extend .flex-wrap;
+  @extend .align-center;
+}

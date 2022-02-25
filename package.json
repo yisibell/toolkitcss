@@ -1,0 +1,32 @@
+{
+  "name": "toolkitcss",
+  "version": "1.0.0",
+  "description": "A CSS toolkit class compiled by sass.",
+  "main": "index.js",
+  "scripts": {
+    "release": "npm publish --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yisibell/toolkitcss.git"
+  },
+  "keywords": [
+    "scss",
+    "css-toolkit",
+    "css",
+    "css-class",
+    "utility-class"
+  ],
+  "author": {
+    "name": "elenh",
+    "email": "yisiwings@163.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yisibell/toolkitcss/issues"
+  },
+  "homepage": "https://github.com/yisibell/toolkitcss#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  }
+}
