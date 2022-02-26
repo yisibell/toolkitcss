@@ -1,12 +1,12 @@
 # toolkitcss
 
-A CSS toolkit class compiled by sass.
+A CSS toolkit class compiled by <a href="https://github.com/sass/dart-sass" target="_blank">sass（dart-sass）</a>.
 
 # Installation
 
 ``` bash
 # yarn
-$ yarn add toolkit
+$ yarn add toolkitcss
 ```
 
 # Usage
@@ -21,14 +21,21 @@ import 'toolkitcss/dist/index.css'
 **例如：**
 
 ``` scss
-// @/styles/index.scss
+// @/styles/toolkitcss/index.scss
 
-// ...
+// 你可以在导入之前自定义编译变量
 
-@import '~toolkitcss/src/index'
+// 例如，修改 spacing 工具类的上限值
+$--spacing-upper-limit-value: 60;
+
+// more ...
+
+@import '~toolkitcss/src/index';
 
 // ...
 ```
+
+<a href="https://github.com/yisibell/toolkitcss/blob/main/src/variables/index.scss" target="_blank">变量定义</a>
 
 然后在项目入口文件中导入：
 
@@ -37,7 +44,7 @@ import 'toolkitcss/dist/index.css'
 
 // ...
 
-import '@/styles/index.scss' // global css
+import '@/styles/toolkitcss/index.scss' // global css
 
 ```
 
