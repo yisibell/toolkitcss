@@ -1,13 +1,14 @@
 @use "sass:math";
 
-@import './display.scss';
-@import './float.scss';
-@import './text-and-typesetting.scss';
-@import './cursor.scss';
-@import './spacing.scss';
-@import './font.scss';
-@import './flex.scss';
-@import './flex-composition.scss';
+@import './variables/index';
+@import './display';
+@import './float';
+@import './text-and-typesetting';
+@import './cursor';
+@import './spacing';
+@import './font';
+@import './flex';
+@import './flex-composition';
 
 
 

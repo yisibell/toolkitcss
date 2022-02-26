@@ -1,70 +1,65 @@
 // margin-* padding-* 快捷类
+@while $--spacing-upper-limit-value >= $--spacing-lower-limit-value {
 
-$spacing-total: 56;
-$spacing-step: 1;
-$spacing-start: 0;
-
-@while $spacing-total >= $spacing-start {
-
-  .mt-#{$spacing-total} {
-    margin-top: #{$spacing-total}px !important;
+  .mt-#{$--spacing-upper-limit-value} {
+    margin-top: #{$--spacing-upper-limit-value}px !important;
   }
 
-  .mr-#{$spacing-total} {
-    margin-right: #{$spacing-total}px !important;
+  .mr-#{$--spacing-upper-limit-value} {
+    margin-right: #{$--spacing-upper-limit-value}px !important;
   }
 
-  .mb-#{$spacing-total} {
-    margin-bottom: #{$spacing-total}px !important;
+  .mb-#{$--spacing-upper-limit-value} {
+    margin-bottom: #{$--spacing-upper-limit-value}px !important;
   }
 
-  .ml-#{$spacing-total} {
-    margin-left: #{$spacing-total}px !important;
+  .ml-#{$--spacing-upper-limit-value} {
+    margin-left: #{$--spacing-upper-limit-value}px !important;
   }
 
-  .mx-#{$spacing-total} {
-    margin-left: #{$spacing-total}px !important;
-    margin-right: #{$spacing-total}px !important;
+  .mx-#{$--spacing-upper-limit-value} {
+    margin-left: #{$--spacing-upper-limit-value}px !important;
+    margin-right: #{$--spacing-upper-limit-value}px !important;
   }
 
-  .my-#{$spacing-total} {
-    margin-top: #{$spacing-total}px !important;
-    margin-bottom: #{$spacing-total}px !important;
+  .my-#{$--spacing-upper-limit-value} {
+    margin-top: #{$--spacing-upper-limit-value}px !important;
+    margin-bottom: #{$--spacing-upper-limit-value}px !important;
   }
 
-  .ma-#{$spacing-total} {
-    margin: #{$spacing-total}px !important;
+  .ma-#{$--spacing-upper-limit-value} {
+    margin: #{$--spacing-upper-limit-value}px !important;
   }
 
-  .pt-#{$spacing-total} {
-    padding-top: #{$spacing-total}px !important;
+  .pt-#{$--spacing-upper-limit-value} {
+    padding-top: #{$--spacing-upper-limit-value}px !important;
   }
 
-  .pr-#{$spacing-total} {
-    padding-right: #{$spacing-total}px !important;
+  .pr-#{$--spacing-upper-limit-value} {
+    padding-right: #{$--spacing-upper-limit-value}px !important;
   }
 
-  .pb-#{$spacing-total} {
-    padding-bottom: #{$spacing-total}px !important;
+  .pb-#{$--spacing-upper-limit-value} {
+    padding-bottom: #{$--spacing-upper-limit-value}px !important;
   }
 
-  .pl-#{$spacing-total} {
-    padding-left: #{$spacing-total}px !important;
+  .pl-#{$--spacing-upper-limit-value} {
+    padding-left: #{$--spacing-upper-limit-value}px !important;
   }
 
-  .px-#{$spacing-total} {
-    padding-left: #{$spacing-total}px !important;
-    padding-right: #{$spacing-total}px !important;
+  .px-#{$--spacing-upper-limit-value} {
+    padding-left: #{$--spacing-upper-limit-value}px !important;
+    padding-right: #{$--spacing-upper-limit-value}px !important;
   }
 
-  .py-#{$spacing-total} {
-    padding-top: #{$spacing-total}px !important;
-    padding-bottom: #{$spacing-total}px !important;
+  .py-#{$--spacing-upper-limit-value} {
+    padding-top: #{$--spacing-upper-limit-value}px !important;
+    padding-bottom: #{$--spacing-upper-limit-value}px !important;
   }
 
-  .pa-#{$spacing-total} {
-    padding: #{$spacing-total}px !important;
+  .pa-#{$--spacing-upper-limit-value} {
+    padding: #{$--spacing-upper-limit-value}px !important;
   }
 
-  $spacing-total: $spacing-total - $spacing-step;
+  $--spacing-upper-limit-value: $--spacing-upper-limit-value - $--spacing-interval-value;
 }

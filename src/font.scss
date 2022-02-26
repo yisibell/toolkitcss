@@ -1,27 +1,19 @@
 // 字体大小
-$font-size-total: 28;
-$font-size-step: 2;
-$font-size-start: 12;
-
-@while $font-size-total >= $font-size-start {
-  .fs-#{$font-size-total} {
-    font-size: #{$font-size-total}px !important;
+@while $--font-size-upper-limit-value >= $--font-size-lower-limit-value {
+  .fs-#{$--font-size-upper-limit-value} {
+    font-size: #{$--font-size-upper-limit-value}px !important;
   }
 
-  $font-size-total: $font-size-total - $font-size-step;
+  $--font-size-upper-limit-value: $--font-size-upper-limit-value - $--font-size-interval-value;
 }
 
 // 字体粗细
-$font-weight-total: 900;
-$font-weight-step: 100;
-$font-weight-start: 100;
-
-@while $font-weight-total >= $font-weight-start {
-  .fw-#{$font-weight-total} {
-    font-weight: #{$font-weight-total} !important;
+@while $--font-weight-upper-limit-value >= $--font-weight-lower-limit-value {
+  .fw-#{$--font-weight-upper-limit-value} {
+    font-weight: #{$--font-weight-upper-limit-value} !important;
   }
 
-  $font-weight-total: $font-weight-total - $font-weight-step;
+  $--font-weight-upper-limit-value: $--font-weight-upper-limit-value - $--font-weight-interval-value;
 }
 
 // 字体粗细别名
