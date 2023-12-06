@@ -1,6 +1,6 @@
 # toolkitcss
 
-A CSS toolkit class compiled by <a href="https://github.com/sass/dart-sass" target="_blank">sass（dart-sass）</a>.
+A CSS toolkit helpers compiled by [sass](https://github.com/sass/dart-sass).
 
 # Installation
 
@@ -11,10 +11,14 @@ $ yarn add toolkitcss
 
 # Usage
 
+## 导入css
+
 ``` js
 // @/main.js
 import 'toolkitcss/dist/index.css'
 ```
+
+## 导入scss
 
 如果你的项目使用的也是 `sass`，可以将 `scss` 源文件导入至你的公共 **styles** 中。注意，确保你的项目使用的是新的 `dart-sass`。
 
@@ -30,12 +34,10 @@ $--spacing-upper-limit-value: 60;
 
 // more ...
 
-@import '~toolkitcss/src/index';
+@import '~toolkitcss/src/lib/styles/index';
 
 // ...
 ```
-
-<a href="https://github.com/yisibell/toolkitcss/blob/main/src/variables/index.scss" target="_blank">变量定义</a>
 
 然后在项目入口文件中导入：
 
@@ -47,5 +49,3 @@ $--spacing-upper-limit-value: 60;
 import '@/styles/toolkitcss/index.scss' // global css
 
 ```
-
-# Features

@@ -11,6 +11,8 @@ import DemoifyUI from 'demoify'
 import 'demoify/lib/style.css'
 import 'prismjs/themes/prism.min.css'
 
+import '@/lib/styles/index.scss'
+
 const app = createApp(App)
 
 app.use(DemoifyUI)
