@@ -1,18 +1,18 @@
 {
   "name": "toolkitcss",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "A CSS toolkit class compiled by sass.",
+  "type": "module",
   "main": "dist/index.css",
   "style": "dist/index.css",
-  "scripts": {
-    "build": "cross-env NODE_ENV=production gulp",
-    "dev": "cross-env NODE_ENV=development gulp",
-    "release": "npm publish --access=public"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yisibell/toolkitcss.git"
+    "url": "https://github.com/yisibell/toolkitcss"
   },
+  "files": [
+    "lib",
+    "src/lib"
+  ],
   "keywords": [
     "scss",
     "css-toolkit",
@@ -24,19 +24,48 @@
     "name": "elenh",
     "email": "yisiwings@163.com"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/yisibell/toolkitcss/issues"
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "test:unit": "vitest",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "format": "prettier --write src/",
+    "build:lib": "rollup -c ./rollup.scss.config.js",
+    "release:nobuild": "changelogen --release && npm publish --access=public && git push --follow-tags",
+    "release": "npm run build:lib && npm run release:nobuild"
   },
-  "homepage": "https://github.com/yisibell/toolkitcss#readme",
   "devDependencies": {
+    "@rushstack/eslint-patch": "^1.3.3",
+    "@tsconfig/node18": "^18.2.2",
+    "@types/jsdom": "^21.1.3",
+    "@types/node": "^18.18.5",
+    "@vitejs/plugin-vue": "^4.4.0",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "@vue/eslint-config-typescript": "^12.0.0",
+    "@vue/test-utils": "^2.4.1",
+    "@vue/tsconfig": "^0.4.0",
+    "changelogen": "^0.5.5",
     "cross-env": "^7.0.3",
     "cz-conventional-changelog": "^3.3.0",
-    "del": "^6.0.0",
-    "gulp": "^4.0.2",
-    "gulp-cli": "^2.3.0",
-    "gulp-rename": "^2.0.0",
-    "gulp-sass": "^5.1.0",
-    "sass": "^1.49.9"
+    "demoify": "^1.3.0",
+    "eslint": "^8.49.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "jsdom": "^22.1.0",
+    "npm-run-all2": "^6.1.1",
+    "pinia": "^2.1.7",
+    "prettier": "^3.0.3",
+    "prismjs": "^1.29.0",
+    "rollup": "^4.6.1",
+    "rollup-plugin-scss": "^4.0.0",
+    "sass": "^1.69.5",
+    "typescript": "~5.2.0",
+    "vite": "^4.4.11",
+    "vitest": "^0.34.6",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5",
+    "vue-tsc": "^1.8.19"
   }
 }

@@ -1,6 +1,0 @@
-.gitignore
-example/
-test/
-.czrc
-yarn.lock
-gulpfile.js
