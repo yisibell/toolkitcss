@@ -1,6 +1,6 @@
 {
   "name": "toolkitcss",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "A CSS toolkit class compiled by sass.",
   "type": "module",
   "main": "dist/index.css",
