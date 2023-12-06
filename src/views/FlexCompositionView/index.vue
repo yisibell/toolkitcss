@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <DemoPanel title="flex 快捷组合辅助">
+    <DemoPanel title="flex 快捷组合辅助" :initialExpand="true">
       <template #description>
         flex 快捷组合辅助类可以帮助你使用常用的 flex 布局组合。
       </template>

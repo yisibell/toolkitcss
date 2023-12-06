@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <DemoPanel title="cursor 指针辅助">
+    <DemoPanel title="cursor 指针辅助" :initialExpand="true">
       <template #description>
         cursor 辅助类可以帮助你轻松使用 cursor 指针样式。
       </template>

@@ -41,8 +41,8 @@ devDependencies:
     specifier: ^3.3.0
     version: 3.3.0(typescript@5.2.2)
   demoify:
-    specifier: ^2.0.1
-    version: 2.0.1(vue@3.3.10)
+    specifier: ^2.1.0
+    version: 2.1.0(vue@3.3.10)
   eslint:
     specifier: ^8.49.0
     version: 8.55.0
@@ -1641,8 +1641,8 @@ packages:
     engines: {node: '>=0.4.0'}
     dev: true
 
-  /demoify@2.0.1(vue@3.3.10):
-    resolution: {integrity: sha512-01fH4J+P3cCvc/iF6CPVMED6iJQUd46pK8IXFItXmn+jHGo9SJN9R/cqy1N0KwgsNJnr7g2hZJuB44ggeTHhTg==}
+  /demoify@2.1.0(vue@3.3.10):
+    resolution: {integrity: sha512-wUEHbBkgYxK+nIon2hZQXlxogmaDApvco2rLh325fi1fOqQYXRDpPH6wEbNBafFtvRkB4C5s61cSYiZ9yFgDIA==}
     peerDependencies:
       vue: ^3.3.4
     dependencies:

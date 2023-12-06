@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <DemoPanel title="display 显示辅助">
+    <DemoPanel title="display 显示辅助" :initialExpand="true">
       <template #description> 显示辅助类可以帮助你控制内容的显示。 </template>
 
       <template #code>

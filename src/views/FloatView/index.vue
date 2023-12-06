@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <DemoPanel title="float 浮动辅助">
+    <DemoPanel title="float 浮动辅助" :initialExpand="true">
       <template #description>
         float 浮动辅助类可以帮助你控制浮动样式。
       </template>

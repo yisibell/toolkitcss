@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <DemoPanel title="文本和排版辅助">
+    <DemoPanel title="文本和排版辅助" :initialExpand="true">
       <template #description>
         文本和排版辅助类可以帮助你控制文本样式及排版。
       </template>

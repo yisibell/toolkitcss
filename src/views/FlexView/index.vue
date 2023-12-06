@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <DemoPanel title="flex 布局辅助">
+    <DemoPanel title="flex 布局辅助" :initialExpand="true">
       <template #description>
         flex辅助类可以帮助你轻松使用 flex 布局。
       </template>

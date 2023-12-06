@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <DemoPanel title="font 字体辅助">
+    <DemoPanel title="font 字体辅助" :initialExpand="true">
       <template #description>
         font 字体辅助类可以帮助你控制字体样式。
       </template>

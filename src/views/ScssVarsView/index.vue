@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <DemoPanel title="scss 变量">
+    <DemoPanel title="scss 变量" :initialExpand="true">
       <template #description> 你可以覆盖这些变量以修改样式类的定义。 </template>
 
       <template #code>

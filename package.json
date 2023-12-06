@@ -4,6 +4,7 @@
   "description": "A CSS toolkit class compiled by sass.",
   "type": "module",
   "main": "dist/index.css",
+  "module": "dist/index.css",
   "style": "dist/index.css",
   "exports": {
     "./index.css": "./dist/index.css",
@@ -54,7 +55,7 @@
     "changelogen": "^0.5.5",
     "cross-env": "^7.0.3",
     "cz-conventional-changelog": "^3.3.0",
-    "demoify": "^2.0.1",
+    "demoify": "^2.1.0",
     "eslint": "^8.49.0",
     "eslint-plugin-vue": "^9.17.0",
     "jsdom": "^22.1.0",
