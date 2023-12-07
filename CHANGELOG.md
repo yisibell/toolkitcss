@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v2.1.0
+
+[compare changes](https://github.com/yisibell/toolkitcss/compare/v2.0.0...v2.1.0)
+
+### 🚀 Enhancements
+
+- Spacing helper support set spacing times ([6d7c065](https://github.com/yisibell/toolkitcss/commit/6d7c065))
+
+### 🏡 Chore
+
+- Update example ([b14bfbc](https://github.com/yisibell/toolkitcss/commit/b14bfbc))
+
+### ❤️ Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v2.0.0
 
 [compare changes](https://github.com/yisibell/toolkitcss/compare/v1.1.0...v2.0.0)
