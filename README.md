@@ -2,6 +2,8 @@
 
 A CSS toolkit helpers compiled by [sass](https://github.com/sass/dart-sass).
 
+[release Notes](./CHANGELOG.md)
+
 # Installation
 
 ``` bash
@@ -11,16 +13,20 @@ $ yarn add toolkitcss
 
 # Usage
 
-## 导入css
+2 种方式使用。
+
+-  直接导入编译后的 `css` 文件。
+-  导入未编译的 `scss` 源文件。
+## 导入编译后的 css
 
 ``` js
 // @/main.js
 import 'toolkitcss/dist/index.css'
 ```
 
-## 导入scss
+## 导入 scss 源文件
 
-如果你的项目使用的也是 `sass`，可以将 `scss` 源文件导入至你的公共 **styles** 中。注意，确保你的项目使用的是新的 `dart-sass`。
+如果你的项目使用的也是 `sass(dart-sass)`，可以将 `scss` 源文件导入至你的公共 **styles** 中。
 
 **例如：**
 
