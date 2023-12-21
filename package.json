@@ -8,7 +8,8 @@
   "style": "dist/index.css",
   "exports": {
     "./index.css": "./dist/index.css",
-    "./dist/index.css": "./dist/index.css"
+    "./dist/index.css": "./dist/index.css",
+    "./src/lib/*": "./src/lib/*"
   },
   "repository": {
     "type": "git",
