@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v2.1.1
+
+[compare changes](https://github.com/yisibell/toolkitcss/compare/v2.1.0...v2.1.1)
+
+### 🩹 Fixes
+
+- Update file exports ([2a799db](https://github.com/yisibell/toolkitcss/commit/2a799db))
+
+### 🏡 Chore
+
+- Update docs site ([b48570b](https://github.com/yisibell/toolkitcss/commit/b48570b))
+- **docs:** Update readme ([3f5fcb9](https://github.com/yisibell/toolkitcss/commit/3f5fcb9))
+
+### ❤️ Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v2.1.0
 
 [compare changes](https://github.com/yisibell/toolkitcss/compare/v2.0.0...v2.1.0)
