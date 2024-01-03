@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v2.2.0
+
+[compare changes](https://github.com/yisibell/toolkitcss/compare/v2.1.1...v2.2.0)
+
+### 🚀 Enhancements
+
+- Upgrade all dependencies to latest version ([7662f6a](https://github.com/yisibell/toolkitcss/commit/7662f6a))
+
+### ❤️ Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v2.1.1
 
 [compare changes](https://github.com/yisibell/toolkitcss/compare/v2.1.0...v2.1.1)
