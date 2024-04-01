@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v2.3.0
+
+[compare changes](https://github.com/yisibell/toolkitcss/compare/v2.2.0...v2.3.0)
+
+### 🚀 Enhancements
+
+- Add border and layout util ([4021fe5](https://github.com/yisibell/toolkitcss/commit/4021fe5))
+
+### ❤️ Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v2.2.0
 
 [compare changes](https://github.com/yisibell/toolkitcss/compare/v2.1.1...v2.2.0)
