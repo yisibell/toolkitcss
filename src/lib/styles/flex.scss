@@ -78,7 +78,12 @@
   flex-wrap: wrap-reverse !important;
 }
 
-// flex 占比
-.flex-1 {
-  flex: 1 !important;
+// flex 占比值
+$total-flex: 10;
+@while $total-flex >= 0 {
+  .flex-#{$total-flex} {
+    flex: #{calc($total-flex / 10)} !important;
+  }
+  
+  $total-flex: $total-flex - 1;
 }

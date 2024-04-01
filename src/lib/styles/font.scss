@@ -16,7 +16,17 @@
   $--font-weight-upper-limit-value: $--font-weight-upper-limit-value - $--font-weight-interval-value;
 }
 
-// 字体粗细别名
-.fw-bold {
+// 字体加粗
+.fw-bold, .fw-b {
   font-weight: bold !important;
+}
+
+// 字体常规
+.fw-normal {
+  font-weight: normal !important;
+}
+
+// 斜体
+.font-italic {
+  font-style: italic !important;
 }

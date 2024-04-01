@@ -1,5 +1,4 @@
 // margin-* padding-* 快捷类
-
 @while $--spacing-upper-limit-value >= $--spacing-lower-limit-value {
 
   $--spacing-value: $--spacing-upper-limit-value * $--spacing-times-value;

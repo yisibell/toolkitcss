@@ -34,7 +34,9 @@ const sidebarMenus = [
     groupTitle: '样式工具类',
     menus: [
       { title: 'Display', to: '/demo/display' },
+      { title: 'Layout 布局', to: '/demo/layout' },
       { title: 'Flex 布局', to: '/demo/flex' },
+      { title: 'Border', to: '/demo/border' },
       { title: 'Flex 快捷组合', to: '/demo/flex-composition' },
       { title: 'Cursor 指针', to: '/demo/cursor' },
       { title: 'Float 浮动', to: '/demo/float' },

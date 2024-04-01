@@ -12,8 +12,16 @@ const router = createRouter({
       path: '/demo',
       children: [
         {
+          path: 'border',
+          component: () => import('@/views/BorderView/index.vue'),
+        },
+        {
           path: 'display',
           component: () => import('@/views/DisplayView/index.vue'),
+        },
+        {
+          path: 'layout',
+          component: () => import('@/views/LayoutView/index.vue'),
         },
         {
           path: 'flex',
