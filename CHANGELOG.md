@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v2.4.0
+
+[compare changes](https://github.com/yisibell/toolkitcss/compare/v2.3.0...v2.4.0)
+
+### 🚀 Enhancements
+
+- Update flex, cursor ([e45a8a2](https://github.com/yisibell/toolkitcss/commit/e45a8a2))
+
+### ❤️ Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v2.3.0
 
 [compare changes](https://github.com/yisibell/toolkitcss/compare/v2.2.0...v2.3.0)
