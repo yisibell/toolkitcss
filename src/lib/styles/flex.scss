@@ -79,11 +79,10 @@
 }
 
 // flex 占比值
-$total-flex: 10;
-@while $total-flex >= 0 {
-  .flex-#{$total-flex} {
-    flex: #{calc($total-flex / 10)} !important;
+@while $--flex-proportion-limit-value >= 0 {
+  .flex-#{$--flex-proportion-limit-value} {
+    flex: #{calc($--flex-proportion-limit-value / 10)} !important;
   }
   
-  $total-flex: $total-flex - 1;
+  $--flex-proportion-limit-value: $--flex-proportion-limit-value - 1;
 }
